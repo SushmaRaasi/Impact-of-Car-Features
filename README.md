@@ -53,38 +53,53 @@
 <p>
   Data cleaning and preprocessing are essential steps in preparing a dataset for analysis.These steps help ensure that the data is accurate, consistent, and ready for meaningful analysis.
 </p>
-data cleaning image
+
+![data cleaning image](https://github.com/SushmaRaasi/Impact-of-Car-Features/assets/79751402/73cb63eb-2c40-41c1-ada0-592981015328)
 
 ### Insights
 
 <ol>
   <li>The popularity of a car model vary across different market categories
 </li>
-  1.1
-  1.2
-  1.3
+  
+  ![1 1](https://github.com/SushmaRaasi/Impact-of-Car-Features/assets/79751402/56c8f493-ac9e-423e-aef6-65a8239bab35)
+  <br>
+  
+![1 2](https://github.com/SushmaRaasi/Impact-of-Car-Features/assets/79751402/4981363b-0896-4696-b804-ae2cd0ddc9c5)
+<br>
+
+![1 3](https://github.com/SushmaRaasi/Impact-of-Car-Features/assets/79751402/2767bf9c-6e94-41e2-8a1b-c6493ac05750)
+
   <ul>
     <li>Based upon the above visuals Crossover category has a large number of models that is 1110 and some market Categories have lower number of models.</li>
   <li>Market Categories like Flex Fuel and Luxury having the number of models like 872 and 855 respectively.</li>
   </ul>
 <li>The relationship between a car's engine power and its price</li>
-  2
+
+  ![2](https://github.com/SushmaRaasi/Impact-of-Car-Features/assets/79751402/9acafd24-7210-4b95-b9af-b7500e63e4b2)
+
   <p>Based upon the trend line  Above visual there is a strong relationship between Engine HP and MSRP. If Engine HP increases then there is a tendency to increase in MSRP.
 </p>
 
 <li>Which car features are most important in determining a car's price
 </li>
-3
+
+![3](https://github.com/SushmaRaasi/Impact-of-Car-Features/assets/79751402/51cc4be6-b954-44db-b66d-e7d9e677913a)
+
 <p>Here I am doing Linear Regression Analysis. It is a statistical method used in data analysis to examine the relationship between one or more independent variables and a dependent variable. It is a valuable tool for understanding and quantifying the association between variables and making predictions or inferences.
 </p>
-3.1
+
+![3 1](https://github.com/SushmaRaasi/Impact-of-Car-Features/assets/79751402/443e2ba4-31e9-4490-b1b5-229988ffe363)
+
 <p>The Formula would be the same, just we need to change the Independent Variable.
 Dependent Variable is MSRP. I used The DAX Formula to find the Coefficients.
 </p>
 <ul>
   <li>
     Engine HP_Coefficient: For every unit increase in Engine HP, MSRP increases by approximately 0.0012 units.
-3.2
+    
+![3 2](https://github.com/SushmaRaasi/Impact-of-Car-Features/assets/79751402/d51e4144-5ca8-4728-831f-c930d613f85b)
+
   </li>
   <li>City MPG_Coefficient: For every unit increase in City MPG, MSRP decreases by approximately 0.0000236 units.</li>
   <li>Engine Cylinders_Coefficient: For every unit increase in Engine Cylinders, MSRP increases by approximately 0.0000158 units.
@@ -93,7 +108,9 @@ Dependent Variable is MSRP. I used The DAX Formula to find the Coefficients.
 </li>
   <li>Popularity_Coefficient: For every unit increase in Popularity, MSRP decreases by approximately 0.0012 units.</li>
   <li>In order to confirm I did t tests and got 0 for all p values.</li>
-  3.3
+  
+  ![3 3](https://github.com/SushmaRaasi/Impact-of-Car-Features/assets/79751402/42fa6815-1444-4f7b-b445-7e27ae340a9d)
+
   <li>Engine HP, City MPG, Engine Cylinders, Highway MPG, and Popularity all have statistically significant relationships with MSRP.
 </li>
   <li>For Engine HP and Engine Cylinders, an increase in these variables is associated with an increase in MSRP.
@@ -105,9 +122,13 @@ Dependent Variable is MSRP. I used The DAX Formula to find the Coefficients.
 
 <li>How does the average price of a car vary across different manufacturers?
 </li>
-4
+
+![4](https://github.com/SushmaRaasi/Impact-of-Car-Features/assets/79751402/44e9aa20-9ac8-45f6-aa10-8d38b96947d6)
+
 <li>What is the relationship between fuel efficiency and the number of cylinders in a car's engine?</li>
-5
+
+![5](https://github.com/SushmaRaasi/Impact-of-Car-Features/assets/79751402/ba1beabd-0b03-4e19-bd14-381a201321e5)
+
 <ul>
   <li>72.94 + -65.3x: This part of the text indicates the equation of the trendline that's been fitted to your scatter plot. It's essentially a linear equation of the form y = mx + b, where:</li>
   <ul>
@@ -124,6 +145,22 @@ Dependent Variable is MSRP. I used The DAX Formula to find the Coefficients.
 </ol>
 
 ### Snapshots of Dashboard
+
+![s1](https://github.com/SushmaRaasi/Impact-of-Car-Features/assets/79751402/d9e64149-332e-4a14-b239-3d39f92c993f)
+
+<br>
+
+![s2](https://github.com/SushmaRaasi/Impact-of-Car-Features/assets/79751402/8a88a2cc-3e6b-4b89-850a-776ebef8a7e7)
+
+<br>
+
+![s3](https://github.com/SushmaRaasi/Impact-of-Car-Features/assets/79751402/b663f8db-ee96-48ca-8a7f-8c43da89a729)
+
+<br>
+
+![s4](https://github.com/SushmaRaasi/Impact-of-Car-Features/assets/79751402/20730131-cb6e-4c6a-801a-dcfc0d464fe0)
+
+<br>
 
 [Click here to access the Power BI file to see the report](https://drive.google.com/drive/u/0/folders/1f_SQIzkPXoSzGpK8hamR1k-LrN9pKODr)
 
