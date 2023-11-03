@@ -1,4 +1,4 @@
-# Impact-of-Car-Features
+# Analyzing the Impact of Car Features on Price and Profitability
 
 - [Project Description](#project-description)
 - [Business Problem](#business-problem)
