@@ -1,5 +1,18 @@
 # Impact-of-Car-Features
 
+- [Project Description](#project-description)
+- [Business Problem](#business-problem)
+- [DataSet](#dataset)
+- [Data Assumptions](#data-assumptions)
+- [Approach](#approach)
+- [Tech Stack Used](#tech-stack-used)
+- [Data Cleaning](#data-cleaning)
+- [Insights](#insights)
+- [Snapshots of Dashboard](#snapshots-of-dashboard)
+- [Result](#result)
+
+
+
 ### Project Description
 <p>The project aims to analyze a dataset of car features and prices to provide insights to a car manufacturer on optimizing pricing and product development decisions while meeting consumer demand.
 </p>
@@ -49,6 +62,7 @@
 </p>
 <p><i>Microsoft Power BI:</i> This was the star of the show when it came to data visualization and analysis. Power BI's user-friendly interface made it easy for me to explore the data, clean it up, and create insightful visualizations. It's like having a powerful magnifying glass to zoom in on the data's hidden patterns.
 </p>
+
 ### Data Cleaning
 <p>
   Data cleaning and preprocessing are essential steps in preparing a dataset for analysis.These steps help ensure that the data is accurate, consistent, and ready for meaningful analysis.
